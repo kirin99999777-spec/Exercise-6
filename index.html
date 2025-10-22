@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
       body {
+        background-color: #B9E2A7;
         font-family: "Open Sans", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -17,8 +18,24 @@
         font-variation-settings: "wdth" 100;
         font-size: 16px;
         width: 960px;
-      }
+       margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
 
+      }
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
 
       ul {
         list-style-type: none;
@@ -35,7 +52,6 @@
         text-decoration: none;
       }
 
-     
 a:link {
       }
 
@@ -43,21 +59,12 @@ a:hover {
   color: red;
 }
 
-
-
       h1 {
         font-family: "Oswald", sans-serif;
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
       }
-
-      .container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        padding: 10px;
-      }
-
 
       #site-title {}
 
@@ -88,9 +95,14 @@ a:hover {
 
 
     <h1>At Greg's Banh Mi, we're serving up the perfect marriage of French and Vietnamese culinary traditions—crispy-on-the-outside, pillowy-on-the-inside baguettes loaded with bold, fresh flavorus that'll make your taste buds sing.</h1>
+    <div class+"container">
+    <div class="grid-item">
+  
     <img src="banh-mi.jpg" alt=" Ian's GIF " width="400" height="300">
     <h2>Classic Pork Banh Mi</h2>
     <p>Tender marinated pork topped with crisp pickled vegetables, fresh cilantro, and a smear of pâté on a perfectly crusty baguette. A traditional favorite that balances savory, sweet, and tangy flavors in every bite.</p>
+   
+      </div>
     <img src="banh-mi.jpg" alt=" Ian's GIF " width="400" height="300">
     <h2>Lemongrass Chicken Banh Mi</h2>
     <p>Grilled chicken marinated in fragrant lemongrass and garlic, paired with cucumber, jalapeños, and our house mayo. Light yet satisfying, this sandwich brings bright, aromatic flavors that'll transport you straight to Saigon.</p>
@@ -100,6 +112,7 @@ a:hover {
     <img src="banh-mi.jpg" alt=" Ian's GIF " width="400" height="300">
     <h2>Five-Spice Beef Banh Mi</h2>
     <p>Thinly sliced beef seared with aromatic five-spice blend and served with pickled vegetables and spicy Sriracha mayo. Rich, warming spices meet cool, crunchy toppings for an unforgettable flavor experience.</p>
+    </div>
     <footer>Because life's too short for boring sandwiches. Greg's got you covered—one crispy baguette at a time.</footer>
   </body>
 </html>
